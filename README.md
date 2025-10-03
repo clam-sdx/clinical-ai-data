@@ -81,6 +81,6 @@ jupyter notebook
 
 open the jupyter notebook notebook.ipynb using the Python (smarterdx_env) kernel. 
 there is already example code inside to give you the context behind the tasks for you to complete. 
-learn from the descriptions of the code in each cell of the notebook. use AI to help you complete the 2 tasks at the end.
+learn from the descriptions of the code in each cell of the notebook. use AI to help you complete the 3 tasks at the end.
 
-send just the notebook.ipynb to your technical interviewer by email and when you meet be ready to explain how you approached the 2 tasks.
+send just the notebook.ipynb to your technical interviewer by email and when you meet be ready to explain how you approached the 3 tasks.
