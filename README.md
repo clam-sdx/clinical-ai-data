@@ -52,7 +52,7 @@ You should see several packages downloaded, ie:
 ~ clinical-ai-data==0.1.0 (from file:///Users/carson/Desktop/Projects/clinical-ai-data)
 ```
 
-At thsi point you should be able to do this:
+At this point you should be able to do this:
 
 ```
 (.venv) josh@Joshs-MacBook-Pro clinical-ai-data % python
