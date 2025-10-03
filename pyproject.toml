@@ -1,0 +1,26 @@
+[project]
+name = "clinical-ai-data"   # distribution name (what you `pip install`)
+version = "0.1.0"
+description = "clinical AI data specialist project"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "transformers>=4.53.2",
+    "polars>=1.26.0",
+    "datasets>=4.1.1",
+    "matplotlib==3.10.1",
+    "setuptools>=79.0.1",
+    "jupyter>=1.0.0",
+    "notebook>=6.4.0",
+    "ipykernel>=6.0.0",
+    "ipywidgets>=8.0.0"
+]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["clinical_ai*"]
