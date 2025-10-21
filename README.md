@@ -1,8 +1,16 @@
 # clinical-ai-data
 
-Dear clinical AI data specialist candidate, this is the take home project for the technical portion of this interview. Using AI to help you with this project is not only allowed, it is encouraged. [Claude](https://claude.ai/), [Perplexity](https://www.perplexity.ai/) and [ChatGPT](https://chatgpt.com/) are all great options. Even though AI use is encouraged, understanding and good design are still important, so as much as you can, try to understand what you do, well enough to explain why you did it, AI can help with that as well. 
+Dear clinical AI data specialist candidate, 
 
-open your Terminal and in the folder of your choosing, clone the repository to your local computer, then go into the repo.
+This is the take home project for the technical portion of this interview. The goal of this exercise is to demonstrate the ability to get setup to work with our engineers. Even if you are not primarily developing software yourself, you are still a valuable source of subject matter expertise and we would like your deep input in guiding our software development process.
+
+Using AI to help you with this project is not only allowed, it is encouraged. [Claude](https://claude.ai/), [Perplexity](https://www.perplexity.ai/) and [ChatGPT](https://chatgpt.com/) are all great options. Even though AI use is encouraged, understanding and good design are still important, so as much as you can, try to understand what you do, well enough to explain why you did it, AI can help with that as well. 
+
+If you prefer, you can look through this repository and implement the equivalent data analysis yourself if you prefer not to install an external codebase. The only data you need to download from this repository is a csv file `icd10_order_fy26.csv` and the minimal dependencies are [Polars](https://pola.rs/), [PyTorch](https://pytorch.org/) and [HuggingFace Transformers](https://github.com/huggingface/transformers), all of which are established and widely used in the deep learning community. 
+
+To setup the python environment and get started using this repository, follow these instructions:
+
+Open your Terminal and in the folder of your choosing, clone the repository to your local computer, then go into the repo.
 
 ```
 git clone git@github.com:clam-sdx/clinical-ai-data.git
