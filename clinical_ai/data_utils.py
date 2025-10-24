@@ -3,6 +3,11 @@ import torch
 import torch.nn.functional as F
 from typing import List, Dict, Tuple, Optional
 
+# hello_world
+def hello_world():
+    print("'Hello, World!'")
+    return None
+
 # --- Helper to extract first A–Z from model output safely ---
 _letter_pat = re.compile(r"[A-Z]")
 
